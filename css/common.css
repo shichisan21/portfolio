@@ -29,10 +29,6 @@ a:hover {
   padding: 0 51px;
 }
 
-.card-img-top {
-  object-fit: contain;
-}
-
 /* Footer area */
 .footer {
   background-color: #343a40;
