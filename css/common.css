@@ -30,7 +30,7 @@ a:hover {
 }
 
 .card-img-top {
-  max-height: 200px;
+  object-fit: contain;
 }
 
 /* Footer area */
