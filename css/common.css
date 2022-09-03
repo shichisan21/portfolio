@@ -1,0 +1,41 @@
+/* Common */
+.oswald {
+  font-family: "Oswald", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+.img-hidden {
+  height: 300px;
+  overflow: hidden;
+}
+
+.img-expand {
+  width: 100%;
+}
+
+/* Navbar area */
+
+/* Contents area */
+.container-m {
+  margin: 30px auto;
+  padding: 0 51px;
+}
+
+.card-img-top {
+  max-height: 200px;
+}
+
+/* Footer area */
+.footer {
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+}

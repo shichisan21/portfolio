@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="./bootstrap-5.2.0-dist/css/bootstrap-reboot.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./bootstrap-5.2.0-dist/css/bootstrap.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/common.css" />
+    <script
+      src="https://kit.fontawesome.com/0d00137290.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>SN portfolio</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid oswald">
+        <a class="navbar-brand navbar-title" href="./index.html"
+          >SN portfolio</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="true"
+              >
+                Applications
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://todo-app-s21.herokuapp.com/"
+                    target="_blank"
+                    >React CRUD APP</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://jp-campingmap.herokuapp.com/"
+                    >JP-Camping Map</a
+                  >
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">sample app 2</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid img-hidden px-0">
+      <img src="img/sample.jpg" class="img-fluid img-expand" />
+    </div>
+
+    <div class="container container-m">
+      <div class="row">
+        <div class="col-md-4 img-hidden">
+          <img src="img/top_pc.png" alt="top image" class="img-fluid" />
+        </div>
+        <div class="col-md-8">
+          <h2 class="oswald">About this page</h2>
+          <p>
+            本ページおよび掲載されているアプリケーションの作成は全てMicrosoft社のVisual
+            Studio Codeを使用しています。<br />
+            ソースコード管理はGithubを使用しています。
+          </p>
+
+          <p>本WEBサイト作成で使用した技術/サービス等</p>
+          <ul>
+            <li>
+              HTML5/CSS3 <i class="fa-brands fa-html5"></i
+              ><i class="fa-brands fa-css3"></i>
+            </li>
+            <li>bootstrap 5.2 <i class="fa-brands fa-bootstrap"></i></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-m">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/todo_app.png" class="card-img-top" alt="todo_app" />
+            <div class="card-body">
+              <a href="https://todo-app-s21.herokuapp.com/" target="_blank">
+                <h5 class="card-title">React CRUD APP</h5>
+                <p class="card-text">
+                  タスクの登録/更新/削除ができるToDoアプリ<br />
+                  起動に時間がかかる事があります。
+                </p>
+                <p>使用した技術/サービス等</p>
+                <ul>
+                  <li>React 18.2<i class="fa-brands fa-react"></i></li>
+                  <li>Node.js 16.14<i class="fa-brands fa-node-js"></i></li>
+                  <li>Material UI 5.1</li>
+                  <li>MySQL(ClearDB)</li>
+                  <li>CircleCI</li>
+                  <li>Heroku</li>
+                </ul>
+              </a>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">2022/08/16 updated</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="img/jp_campingmap.png"
+              class="card-img-top"
+              alt="jp_campingmap"
+            />
+            <div class="card-body">
+              <a href="https://jp-campingmap.herokuapp.com/" target="_blank">
+                <h5 class="card-title">JP-Camping Map</h5>
+                <p class="card-text">
+                  都道府県別のキャンプ場を調べるアプリ(Yahoo!ローカルサーチ)<br />
+                  起動に時間がかかる事があります。
+                </p>
+                <p>使用した技術/サービス等</p>
+                <ul>
+                  <li>React 18.2<i class="fa-brands fa-react"></i></li>
+                  <li>Node.js 16.14<i class="fa-brands fa-node-js"></i></li>
+                  <li>Material UI 5.1</li>
+                  <li>Yahoo!ローカルサーチAPI</li>
+                  <li>CircleCI</li>
+                  <li>Heroku</li>
+                </ul>
+              </a>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">2022/08/27 updated</small>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="col">
+          <div class="card h-100">
+            <img
+              src="img/sample3.jpg"
+              class="card-img-top"
+              alt="sample image3"
+            />
+            <div class="card-body">
+              <h5 class="card-title">sample app 2</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipisci elit, sed
+                eiusmod tempor incidunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">yyyy/mm/dd uploaded</small>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </div>
+
+    <footer class="footer oswald">&copy;2022 SN portfolio</footer>
+
+    <script src="./bootstrap-5.2.0-dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
